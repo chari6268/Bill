@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Card from "react-bootstrap/Card";
 import InvoiceItem from "./InvoiceItem";
-import InvoiceModal from "./InvoiceModal";
+import InvoiceModal from "./bill";
 import InputGroup from "react-bootstrap/InputGroup";
 
 const formatDate = (date) => {
@@ -49,6 +49,12 @@ const InvoiceForm = () => {
       description: "",
       price: "0",
       quantity: 0,
+      wstones:0,
+      wastage:0,
+      ostones:0,
+      rate:0,
+      oldGold:"",
+      stones:"",
     },
   ]);
 
